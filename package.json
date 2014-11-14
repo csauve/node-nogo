@@ -1,0 +1,31 @@
+{
+  "name": "nogo",
+  "version": "1.0.0",
+  "description": "A simple rate limiter intended for human users",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/_mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csauve/node-nogo"
+  },
+  "keywords": [
+    "rate-limiter",
+    "node",
+    "simple"
+  ],
+  "author": "csauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csauve/node-nogo/issues"
+  },
+  "homepage": "https://github.com/csauve/node-nogo",
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "mocha": "^2.0.1"
+  }
+}
