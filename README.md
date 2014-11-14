@@ -56,5 +56,10 @@ bot.msg(/^!echo\s+(.+)$/i, function(nick, channel, match) {
 - [node-ratelimiter](https://github.com/tj/node-ratelimiter)
 - [node-simple-rate-limiter](https://github.com/xavi-/node-simple-rate-limiter)
 
+## Running Tests
+```sh
+$ npm test
+```
+
 ## License
 [MIT](http://opensource.org/licenses/MIT)
